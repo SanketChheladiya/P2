@@ -1,0 +1,11 @@
+<html>
+<head>
+    <title>{% block title %}{% endblock title %}</title>
+</head>
+<body>
+        <a href ="{% url 'user_register' %}">Signup</a>
+        <br>
+        <a href ="{% url 'login' %}">Login</a>
+    {% block body %}{% endblock body %}
+</body>
+</html>
